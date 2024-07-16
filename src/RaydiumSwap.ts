@@ -14,10 +14,9 @@ import {
 import { Wallet } from '@coral-xyz/anchor'
 import bs58 from 'bs58'
 
-/**
- * Class representing a Raydium Swap operation.
- */
-class RaydiumSwap {
+
+
+export class RaydiumSwap {
   allPoolKeysJson: LiquidityPoolJsonInfo[]
   connection: Connection
   wallet: Wallet
